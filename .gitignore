@@ -1,1 +1,5 @@
 *.bak
+venv/*
+core
+.gdb_history
+node_modules
