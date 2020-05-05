@@ -1,0 +1,7 @@
+lab1/hellWorld-42c3475ca77178982fac30821bbb480e.exe filter=lfs diff=lfs merge=lfs -text
+lab1/whatTheHell-6eb0d34031d2621537169368490a28e0.exe filter=lfs diff=lfs merge=lfs -text
+lab2/coolplayer.exe filter=lfs diff=lfs merge=lfs -text
+lab2/heyElva.exe filter=lfs diff=lfs merge=lfs -text
+lab2/MadElva.exe filter=lfs diff=lfs merge=lfs -text
+lab2/seh.exe filter=lfs diff=lfs merge=lfs -text
+
